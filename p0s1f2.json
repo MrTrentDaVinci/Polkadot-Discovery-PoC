@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "file": "p0s1f2.json",
+    "scis_version": "4.1",
+    "description": "Environment configuration template for Polkadot Discovery PoC"
+  },
+  "environment": {
+    "development": {
+      "APP_NAME": "Polkadot Discovery PoC",
+      "APP_VERSION": "0.1.0",
+      "NODE_ENV": "development",
+      "PORT": 5173,
+      "API_BASE_URL": "http://localhost:5173",
+      "POLKADOT_NETWORK": "westend",
+      "POLKADOT_RPC_URL": "wss://westend-rpc.polkadot.io",
+      "ENABLE_LOGGING": true,
+      "LOG_LEVEL": "debug"
+    },
+    "production": {
+      "APP_NAME": "Polkadot Discovery PoC",
+      "APP_VERSION": "0.1.0",
+      "NODE_ENV": "production",
+      "PORT": 3000,
+      "API_BASE_URL": "https://polkadot-discovery-poc.vercel.app",
+      "POLKADOT_NETWORK": "westend",
+      "POLKADOT_RPC_URL": "wss://westend-rpc.polkadot.io",
+      "ENABLE_LOGGING": false,
+      "LOG_LEVEL": "error"
+    }
+  },
+  "polkadot": {
+    "supported_networks": [
+      {
+        "id": "westend",
+        "name": "Westend Testnet",
+        "rpc": "wss://westend-rpc.polkadot.io",
+        "description": "Primary testnet for PoC"
+      },
+      {
+        "id": "rococo",
+        "name": "Rococo Testnet",
+        "rpc": "wss://rococo-rpc.polkadot.io",
+        "description": "Alternative testnet"
+      }
+    ],
+    "wallet_extensions": ["polkadot-js", "talisman", "subwallet"]
+  },
+  "features": {
+    "enable_wallet_connect": true,
+    "enable_preference_storage": true,
+    "enable_newsletter_generation": true,
+    "enable_mock_data": true,
+    "enable_analytics": false
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "metadata": {
+    "file": "p1s1f3.json",
+    "topic": "travel",
+    "topic_id": 192,
+    "scis_version": "4.1",
+    "last_updated": "2025-11-11"
+  },
+  "search_results": [
+    {
+      "id": "travel_001",
+      "destination": "Kyoto, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "type": ["Cultural", "Historical", "Nature"],
+      "description": "Ancient temples, traditional gardens, and seasonal cherry blossoms in Japan's cultural heart.",
+      "best_time_to_visit": {
+        "seasons": ["Spring (March-May)", "Fall (September-November)"],
+        "peak_season": "April (Cherry Blossom)",
+        "budget_season": "Winter (December-February)"
+      },
+      "average_temperature": {
+        "spring": "15-20°C",
+        "summer": "26-32°C",
+        "fall": "12-20°C",
+        "winter": "2-10°C"
+      },
+      "hotels": [
+        {
+          "name": "The Ritz-Carlton Kyoto",
+          "price_per_night": 650,
+          "rating": 4.8,
+          "amenities": ["Spa", "River Views", "Traditional Tea Ceremony"],
+          "booking_url": "https://example.com/ritz-kyoto"
+        },
+        {
+          "name": "Hoshinoya Kyoto",
+          "price_per_night": 850,
+          "rating": 4.9,
+          "amenities": ["Private River Boat", "Onsen", "Kaiseki Dining"],
+          "booking_url": "https://example.com/hoshinoya"
+        },
+        {
+          "name": "Gion Hatanaka",
+          "price_per_night": 280,
+          "rating": 4.6,
+          "amenities": [
+            "Traditional Ryokan",
+            "Hot Spring",
+            "Kimono Experience"
+          ],
+          "booking_url": "https://example.com/gion-hatanaka"
+        }
+      ],
+      "flights": [
+        {
+          "from": "San Francisco (SFO)",
+          "airline": "ANA",
+          "price": 1200,
+          "duration": "11h 30m",
+          "stops": "Direct",
+          "booking_url": "https://example.com/ana-sfo-kyoto"
+        },
+        {
+          "from": "Los Angeles (LAX)",
+          "airline": "Japan Airlines",
+          "price": 1350,
+          "duration": "11h 45m",
+          "stops": "Direct",
+          "booking_url": "https://example.com/jal-lax-kyoto"
+        }
+      ],
+      "top_attractions": [
+        {
+          "name": "Fushimi Inari Shrine",
+          "type": "Temple",
+          "entry_fee": "Free",
+          "recommended_duration": "2-3 hours"
+        },
+        {
+          "name": "Arashiyama Bamboo Grove",
+          "type": "Nature",
+          "entry_fee": "Free",
+          "recommended_duration": "1-2 hours"
+        },
+        {
+          "name": "Kinkaku-ji (Golden Pavilion)",
+          "type": "Temple",
+          "entry_fee": "400 yen",
+          "recommended_duration": "1 hour"
+        }
+      ],
+      "local_experiences": [
+        "Tea ceremony",
+        "Geisha district tours",
+        "Kimono rental",
+        "Sake tasting",
+        "Temple meditation"
+      ],
+      "travel_tips": [
+        "Purchase JR Pass before arrival",
+        "Visit temples early morning to avoid crowds",
+        "Respect temple etiquette",
+        "Learn basic Japanese phrases"
+      ],
+      "weather_forecast": {
+        "current_week": "Partly cloudy, 18°C",
+        "outlook": "Ideal for sightseeing"
+      },
+      "visa_requirements": "Visa-free for US citizens (up to 90 days)",
+      "local_guides_available": true
+    },
+    {
+      "id": "travel_002",
+      "destination": "Santorini, Greece",
+      "country": "Greece",
+      "region": "Europe",
+      "type": ["Beach", "Romantic", "Luxury"],
+      "description": "Iconic white-washed buildings, stunning sunsets, and crystal-clear Aegean waters.",
+      "best_time_to_visit": {
+        "seasons": ["Late Spring (May-June)", "Early Fall (September-October)"],
+        "peak_season": "July-August",
+        "budget_season": "November-March"
+      },
+      "average_temperature": {
+        "spring": "18-24°C",
+        "summer": "28-35°C",
+        "fall": "20-26°C",
+        "winter": "10-15°C"
+      },
+      "hotels": [
+        {
+          "name": "Canaves Oia Suites",
+          "price_per_night": 580,
+          "rating": 4.9,
+          "amenities": ["Infinity Pool", "Caldera Views", "Private Jacuzzi"],
+          "booking_url": "https://example.com/canaves"
+        },
+        {
+          "name": "Katikies Hotel",
+          "price_per_night": 720,
+          "rating": 4.9,
+          "amenities": ["Cave Pool", "Sunset Views", "Spa"],
+          "booking_url": "https://example.com/katikies"
+        },
+        {
+          "name": "Astra Suites",
+          "price_per_night": 420,
+          "rating": 4.7,
+          "amenities": ["Honeymoon Suite", "Breakfast Included", "Sea Views"],
+          "booking_url": "https://example.com/astra"
+        }
+      ],
+      "flights": [
+        {
+          "from": "New York (JFK)",
+          "airline": "Delta",
+          "price": 950,
+          "duration": "14h 20m",
+          "stops": "1 stop (Athens)",
+          "booking_url": "https://example.com/delta-jfk-santorini"
+        },
+        {
+          "from": "San Francisco (SFO)",
+          "airline": "United",
+          "price": 1100,
+          "duration": "16h 45m",
+          "stops": "1 stop (Frankfurt)",
+          "booking_url": "https://example.com/united-sfo-santorini"
+        }
+      ],
+      "top_attractions": [
+        {
+          "name": "Oia Village Sunset",
+          "type": "Scenic",
+          "entry_fee": "Free",
+          "recommended_duration": "2-3 hours"
+        },
+        {
+          "name": "Red Beach",
+          "type": "Beach",
+          "entry_fee": "Free",
+          "recommended_duration": "Half day"
+        },
+        {
+          "name": "Ancient Akrotiri",
+          "type": "Archaeological Site",
+          "entry_fee": "12 euros",
+          "recommended_duration": "1-2 hours"
+        }
+      ],
+      "local_experiences": [
+        "Wine tasting tours",
+        "Sailing catamaran cruise",
+        "Sunset dinner cruise",
+        "Cooking classes",
+        "Volcano hike"
+      ],
+      "travel_tips": [
+        "Book sunset restaurants weeks in advance",
+        "Rent ATV for island exploration",
+        "Stay in Oia for best sunset views",
+        "Visit beaches early to secure spots"
+      ],
+      "weather_forecast": {
+        "current_week": "Sunny, 22°C",
+        "outlook": "Perfect beach weather"
+      },
+      "visa_requirements": "Visa-free for US citizens (Schengen Area - 90 days)",
+      "local_guides_available": true
+    },
+    {
+      "id": "travel_003",
+      "destination": "Patagonia, Argentina/Chile",
+      "country": "Argentina/Chile",
+      "region": "South America",
+      "type": ["Adventure", "Nature", "Hiking"],
+      "description": "Dramatic glaciers, towering peaks, and pristine wilderness at the end of the world.",
+      "best_time_to_visit": {
+        "seasons": ["Summer (December-February)", "Fall (March-April)"],
+        "peak_season": "January-February",
+        "budget_season": "May-August"
+      },
+      "average_temperature": {
+        "spring": "8-15°C",
+        "summer": "12-20°C",
+        "fall": "5-12°C",
+        "winter": "-2-8°C"
+      },
+      "hotels": [
+        {
+          "name": "Explora Patagonia",
+          "price_per_night": 890,
+          "rating": 4.8,
+          "amenities": ["All-Inclusive", "Guided Excursions", "Spa"],
+          "booking_url": "https://example.com/explora-patagonia"
+        },
+        {
+          "name": "Awasi Patagonia",
+          "price_per_night": 1200,
+          "rating": 4.9,
+          "amenities": ["Private Guide", "Luxury Villas", "Gourmet Dining"],
+          "booking_url": "https://example.com/awasi"
+        },
+        {
+          "name": "Hotel Las Torres",
+          "price_per_night": 350,
+          "rating": 4.5,
+          "amenities": ["National Park Access", "Restaurant", "Trekking Base"],
+          "booking_url": "https://example.com/las-torres"
+        }
+      ],
+      "flights": [
+        {
+          "from": "Miami (MIA)",
+          "airline": "LATAM",
+          "price": 1400,
+          "duration": "18h 30m",
+          "stops": "1 stop (Santiago)",
+          "booking_url": "https://example.com/latam-mia-patagonia"
+        },
+        {
+          "from": "Los Angeles (LAX)",
+          "airline": "American Airlines",
+          "price": 1550,
+          "duration": "19h 15m",
+          "stops": "2 stops",
+          "booking_url": "https://example.com/aa-lax-patagonia"
+        }
+      ],
+      "top_attractions": [
+        {
+          "name": "Torres del Paine Circuit",
+          "type": "Hiking",
+          "entry_fee": "Park entrance required",
+          "recommended_duration": "4-9 days"
+        },
+        {
+          "name": "Perito Moreno Glacier",
+          "type": "Nature",
+          "entry_fee": "Park entrance required",
+          "recommended_duration": "Full day"
+        },
+        {
+          "name": "Fitz Roy Trek",
+          "type": "Hiking",
+          "entry_fee": "Free",
+          "recommended_duration": "2-3 days"
+        }
+      ],
+      "local_experiences": [
+        "Ice trekking on glaciers",
+        "Wildlife watching (guanacos, condors)",
+        "Camping in national parks",
+        "Kayaking in fjords",
+        "Gaucho ranch visits"
+      ],
+      "travel_tips": [
+        "Pack layers for unpredictable weather",
+        "Book refugios/campsites months ahead",
+        "Bring cash - ATMs limited",
+        "Weather changes rapidly, be prepared"
+      ],
+      "weather_forecast": {
+        "current_week": "Variable, 10-15°C with wind",
+        "outlook": "Typical Patagonia conditions"
+      },
+      "visa_requirements": "Visa-free for US citizens (90 days)",
+      "local_guides_available": true,
+      "difficulty_level": "Moderate to Challenging"
+    },
+    {
+      "id": "travel_004",
+      "destination": "Marrakech, Morocco",
+      "country": "Morocco",
+      "region": "Africa",
+      "type": ["Cultural", "Shopping", "Food"],
+      "description": "Vibrant souks, stunning palaces, and aromatic spice markets in the Red City.",
+      "best_time_to_visit": {
+        "seasons": ["Spring (March-May)", "Fall (September-November)"],
+        "peak_season": "October-November",
+        "budget_season": "July-August (very hot)"
+      },
+      "average_temperature": {
+        "spring": "20-28°C",
+        "summer": "30-40°C",
+        "fall": "18-28°C",
+        "winter": "10-20°C"
+      },
+      "hotels": [
+        {
+          "name": "La Mamounia",
+          "price_per_night": 520,
+          "rating": 4.8,
+          "amenities": ["Historic Palace", "Gardens", "Multiple Pools"],
+          "booking_url": "https://example.com/la-mamounia"
+        },
+        {
+          "name": "Royal Mansour",
+          "price_per_night": 980,
+          "rating": 4.9,
+          "amenities": ["Private Riads", "Michelin Dining", "Spa"],
+          "booking_url": "https://example.com/royal-mansour"
+        },
+        {
+          "name": "Riad Farnatchi",
+          "price_per_night": 380,
+          "rating": 4.7,
+          "amenities": ["Rooftop Terrace", "Traditional Riad", "Pool"],
+          "booking_url": "https://example.com/riad-farnatchi"
+        }
+      ],
+      "flights": [
+        {
+          "from": "New York (JFK)",
+          "airline": "Royal Air Maroc",
+          "price": 750,
+          "duration": "7h 30m",
+          "stops": "Direct",
+          "booking_url": "https://example.com/ram-jfk-marrakech"
+        },
+        {
+          "from": "Washington (IAD)",
+          "airline": "British Airways",
+          "price": 820,
+          "duration": "10h 45m",
+          "stops": "1 stop (London)",
+          "booking_url": "https://example.com/ba-iad-marrakech"
+        }
+      ],
+      "top_attractions": [
+        {
+          "name": "Jemaa el-Fnaa Square",
+          "type": "Cultural Hub",
+          "entry_fee": "Free",
+          "recommended_duration": "2-3 hours"
+        },
+        {
+          "name": "Bahia Palace",
+          "type": "Historical",
+          "entry_fee": "70 MAD",
+          "recommended_duration": "1-2 hours"
+        },
+        {
+          "name": "Majorelle Garden",
+          "type": "Garden",
+          "entry_fee": "70 MAD",
+          "recommended_duration": "1 hour"
+        }
+      ],
+      "local_experiences": [
+        "Souk shopping and haggling",
+        "Traditional hammam spa",
+        "Moroccan cooking class",
+        "Desert day trips (Sahara)",
+        "Henna tattoo experience"
+      ],
+      "travel_tips": [
+        "Dress modestly, especially in medina",
+        "Haggle prices in souks (start at 50%)",
+        "Avoid tap water",
+        "Hire a local guide for medina"
+      ],
+      "weather_forecast": {
+        "current_week": "Sunny, 25°C",
+        "outlook": "Excellent touring weather"
+      },
+      "visa_requirements": "Visa-free for US citizens (90 days)",
+      "local_guides_available": true
+    },
+    {
+      "id": "travel_005",
+      "destination": "Reykjavik, Iceland",
+      "country": "Iceland",
+      "region": "Europe",
+      "type": ["Nature", "Adventure", "Northern Lights"],
+      "description": "Geothermal wonders, northern lights, and dramatic volcanic landscapes.",
+      "best_time_to_visit": {
+        "seasons": [
+          "Summer (June-August) for midnight sun",
+          "Winter (September-March) for northern lights"
+        ],
+        "peak_season": "June-August",
+        "budget_season": "April-May, September-October"
+      },
+      "average_temperature": {
+        "spring": "2-8°C",
+        "summer": "10-15°C",
+        "fall": "3-10°C",
+        "winter": "-3-2°C"
+      },
+      "hotels": [
+        {
+          "name": "The Retreat at Blue Lagoon",
+          "price_per_night": 780,
+          "rating": 4.9,
+          "amenities": ["Private Lagoon Access", "Spa", "Geothermal Waters"],
+          "booking_url": "https://example.com/retreat-blue-lagoon"
+        },
+        {
+          "name": "Ion Adventure Hotel",
+          "price_per_night": 420,
+          "rating": 4.7,
+          "amenities": [
+            "Northern Lights Bar",
+            "Hiking Access",
+            "Geothermal Pool"
+          ],
+          "booking_url": "https://example.com/ion-hotel"
+        },
+        {
+          "name": "Hotel Borg",
+          "price_per_night": 280,
+          "rating": 4.5,
+          "amenities": ["City Center", "Art Deco", "Restaurant"],
+          "booking_url": "https://example.com/hotel-borg"
+        }
+      ],
+      "flights": [
+        {
+          "from": "Boston (BOS)",
+          "airline": "Icelandair",
+          "price": 450,
+          "duration": "5h 30m",
+          "stops": "Direct",
+          "booking_url": "https://example.com/icelandair-bos"
+        },
+        {
+          "from": "Seattle (SEA)",
+          "airline": "Icelandair",
+          "price": 550,
+          "duration": "7h 45m",
+          "stops": "Direct",
+          "booking_url": "https://example.com/icelandair-sea"
+        }
+      ],
+      "top_attractions": [
+        {
+          "name": "Blue Lagoon",
+          "type": "Geothermal Spa",
+          "entry_fee": "From $70",
+          "recommended_duration": "2-3 hours"
+        },
+        {
+          "name": "Golden Circle",
+          "type": "Tour Route",
+          "entry_fee": "Tour dependent",
+          "recommended_duration": "Full day"
+        },
+        {
+          "name": "Jökulsárlón Glacier Lagoon",
+          "type": "Nature",
+          "entry_fee": "Free",
+          "recommended_duration": "2-3 hours"
+        }
+      ],
+      "local_experiences": [
+        "Northern lights hunting",
+        "Ice cave exploration",
+        "Glacier hiking",
+        "Whale watching",
+        "Hot spring bathing"
+      ],
+      "travel_tips": [
+        "Rent a 4x4 for Ring Road",
+        "Weather changes rapidly, layer clothing",
+        "Book Blue Lagoon in advance",
+        "Northern lights best in winter"
+      ],
+      "weather_forecast": {
+        "current_week": "Cloudy with rain, 8°C",
+        "outlook": "Typical Iceland weather"
+      },
+      "visa_requirements": "Visa-free for US citizens (Schengen Area - 90 days)",
+      "local_guides_available": true
+    }
+  ],
+  "related_content": {
+    "travel_tips_general": [
+      "Book flights 2-3 months in advance",
+      "Use travel insurance",
+      "Check visa requirements early",
+      "Download offline maps"
+    ],
+    "packing_essentials": [
+      "Universal adapter",
+      "Portable charger",
+      "Travel documents",
+      "First aid kit"
+    ]
+  }
+}

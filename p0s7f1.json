@@ -1,0 +1,414 @@
+{
+  "metadata": {
+    "file": "p0s7f1.json",
+    "scis_version": "4.1",
+    "description": "Runtime application log for Polkadot Discovery PoC",
+    "log_format": "structured_json",
+    "created": "2025-11-11T00:00:00Z",
+    "last_updated": "2025-11-11T00:00:00Z"
+  },
+  "log_configuration": {
+    "log_level": "debug",
+    "max_entries": 1000,
+    "rotation_policy": "size_based",
+    "max_file_size_mb": 10,
+    "retention_days": 7,
+    "include_stack_traces": true,
+    "anonymize_user_data": true
+  },
+  "log_entries": [
+    {
+      "id": "log_001",
+      "timestamp": "2025-11-11T10:00:00.000Z",
+      "level": "info",
+      "component": "Cp0s0f1.1",
+      "file": "p0s0f1.js",
+      "event": "application_start",
+      "message": "Application orchestrator initialized",
+      "details": {
+        "environment": "development",
+        "node_version": "20.10.0",
+        "scis_version": "4.1"
+      }
+    },
+    {
+      "id": "log_002",
+      "timestamp": "2025-11-11T10:00:01.234Z",
+      "level": "info",
+      "component": "Cp0s1f1.1",
+      "file": "p0s1f1.js",
+      "event": "config_loaded",
+      "message": "Configuration loaded successfully",
+      "details": {
+        "config_keys": ["APP_CONFIG", "TOPIC_IDS", "FILTER_CATEGORIES"],
+        "polkadot_network": "westend"
+      }
+    },
+    {
+      "id": "log_003",
+      "timestamp": "2025-11-11T10:00:02.456Z",
+      "level": "info",
+      "component": "Cp0s0f5.1",
+      "file": "p0s0f5.js",
+      "event": "mock_data_loaded",
+      "message": "Mock data manager initialized with all topic data",
+      "details": {
+        "topics_loaded": ["movies", "restaurants", "travel", "events", "tech"],
+        "total_items": 25,
+        "data_files": [
+          "p1s1f1.json",
+          "p1s1f2.json",
+          "p1s1f3.json",
+          "p1s1f4.json",
+          "p1s1f5.json"
+        ]
+      }
+    },
+    {
+      "id": "log_004",
+      "timestamp": "2025-11-11T10:00:03.789Z",
+      "level": "info",
+      "component": "Cp0s0f4.1",
+      "file": "p0s0f4.js",
+      "event": "filter_templates_loaded",
+      "message": "Filter template engine initialized",
+      "details": {
+        "template_file": "p1s1f6.json",
+        "topics_configured": 5,
+        "total_filters": 40
+      }
+    },
+    {
+      "id": "log_005",
+      "timestamp": "2025-11-11T10:00:05.123Z",
+      "level": "info",
+      "component": "Cp0s0f6.1",
+      "file": "p0s0f6.js",
+      "event": "polkadot_connection_attempt",
+      "message": "Attempting to connect to Polkadot network",
+      "details": {
+        "network": "westend",
+        "rpc_url": "wss://westend-rpc.polkadot.io"
+      }
+    },
+    {
+      "id": "log_006",
+      "timestamp": "2025-11-11T10:00:07.456Z",
+      "level": "success",
+      "component": "Cp0s0f6.1",
+      "file": "p0s0f6.js",
+      "event": "polkadot_connected",
+      "message": "Successfully connected to Polkadot Westend testnet",
+      "details": {
+        "chain": "Westend",
+        "node_version": "1.7.0",
+        "genesis_hash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e"
+      }
+    },
+    {
+      "id": "log_007",
+      "timestamp": "2025-11-11T10:01:15.789Z",
+      "level": "info",
+      "component": "Cp1s0f2.1",
+      "file": "p1s0f2.jsx",
+      "event": "user_search",
+      "message": "User performed search query",
+      "details": {
+        "query": "thriller movies 2024",
+        "query_length": 20,
+        "user_session": "session_abc123"
+      }
+    },
+    {
+      "id": "log_008",
+      "timestamp": "2025-11-11T10:01:15.890Z",
+      "level": "debug",
+      "component": "Cp0s2f1.1",
+      "file": "p0s2f1.js",
+      "event": "query_parsed",
+      "message": "Search query parsed successfully",
+      "details": {
+        "original_query": "thriller movies 2024",
+        "normalized_query": "thriller movies 2024",
+        "query_type": "movies"
+      }
+    },
+    {
+      "id": "log_009",
+      "timestamp": "2025-11-11T10:01:15.901Z",
+      "level": "debug",
+      "component": "Cp0s2f1.2",
+      "file": "p0s2f1.js",
+      "event": "keywords_extracted",
+      "message": "Keywords extracted from query",
+      "details": {
+        "keywords": ["thriller", "movies", "2024"],
+        "keyword_count": 3
+      }
+    },
+    {
+      "id": "log_010",
+      "timestamp": "2025-11-11T10:01:16.012Z",
+      "level": "info",
+      "component": "Cp0s0f4.2",
+      "file": "p0s0f4.js",
+      "event": "context_analyzed",
+      "message": "Query context analyzed and topic identified",
+      "details": {
+        "detected_topic": "movies",
+        "topic_id": 64,
+        "confidence": 0.95
+      }
+    },
+    {
+      "id": "log_011",
+      "timestamp": "2025-11-11T10:01:16.123Z",
+      "level": "info",
+      "component": "Cp0s2f2.1",
+      "file": "p0s2f2.js",
+      "event": "filters_selected",
+      "message": "Dynamic filters selected for topic",
+      "details": {
+        "topic": "movies",
+        "filters_loaded": 8,
+        "filter_ids": [
+          "mov_filter_1",
+          "mov_filter_2",
+          "mov_filter_3",
+          "mov_filter_4",
+          "mov_filter_5",
+          "mov_filter_6",
+          "mov_filter_7",
+          "mov_filter_8"
+        ]
+      }
+    },
+    {
+      "id": "log_012",
+      "timestamp": "2025-11-11T10:01:16.234Z",
+      "level": "debug",
+      "component": "Cp0s0f5.1",
+      "file": "p0s0f5.js",
+      "event": "data_retrieved",
+      "message": "Mock data retrieved for topic",
+      "details": {
+        "topic": "movies",
+        "results_count": 5,
+        "source_file": "p1s1f1.json"
+      }
+    },
+    {
+      "id": "log_013",
+      "timestamp": "2025-11-11T10:01:16.345Z",
+      "level": "info",
+      "component": "Cp1s0f3.1",
+      "file": "p1s0f3.jsx",
+      "event": "filters_rendered",
+      "message": "Filter panel rendered with dynamic filters",
+      "details": {
+        "filter_count": 8,
+        "default_selected": ["mov_filter_3"]
+      }
+    },
+    {
+      "id": "log_014",
+      "timestamp": "2025-11-11T10:02:30.567Z",
+      "level": "info",
+      "component": "Cp1s0f3.2",
+      "file": "p1s0f3.jsx",
+      "event": "filter_toggled",
+      "message": "User toggled filter checkbox",
+      "details": {
+        "filter_id": "mov_filter_1",
+        "filter_name": "Currently in Theaters",
+        "new_state": true,
+        "user_session": "session_abc123"
+      }
+    },
+    {
+      "id": "log_015",
+      "timestamp": "2025-11-11T10:03:45.789Z",
+      "level": "info",
+      "component": "Cp1s0f5.1",
+      "file": "p1s0f5.jsx",
+      "event": "wallet_connect_initiated",
+      "message": "User initiated wallet connection",
+      "details": {
+        "wallet_type": "polkadot-js",
+        "user_session": "session_abc123"
+      }
+    },
+    {
+      "id": "log_016",
+      "timestamp": "2025-11-11T10:03:47.123Z",
+      "level": "success",
+      "component": "Cp1s0f5.1",
+      "file": "p1s0f5.jsx",
+      "event": "wallet_connected",
+      "message": "Wallet connected successfully",
+      "details": {
+        "wallet_type": "polkadot-js",
+        "account_count": 3,
+        "selected_account": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY"
+      }
+    },
+    {
+      "id": "log_017",
+      "timestamp": "2025-11-11T10:04:12.456Z",
+      "level": "info",
+      "component": "Cp1s0f5.2",
+      "file": "p1s0f5.jsx",
+      "event": "preference_sync_started",
+      "message": "Syncing user preferences to Polkadot chain",
+      "details": {
+        "account": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
+        "preferences": {
+          "topics": ["movies", "restaurants"],
+          "active_filters": ["mov_filter_1", "mov_filter_3"]
+        }
+      }
+    },
+    {
+      "id": "log_018",
+      "timestamp": "2025-11-11T10:04:15.789Z",
+      "level": "debug",
+      "component": "Cp0s0f6.2",
+      "file": "p0s0f6.js",
+      "event": "chain_storage_write",
+      "message": "Writing user preferences to chain storage",
+      "details": {
+        "storage_key": "userPreferences",
+        "account": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
+        "data_size_bytes": 256
+      }
+    },
+    {
+      "id": "log_019",
+      "timestamp": "2025-11-11T10:04:18.123Z",
+      "level": "success",
+      "component": "Cp0s0f6.2",
+      "file": "p0s0f6.js",
+      "event": "chain_storage_success",
+      "message": "Preferences stored on-chain successfully",
+      "details": {
+        "block_hash": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+        "extrinsic_index": "1234-5",
+        "transaction_fee": "0.01 WND"
+      }
+    },
+    {
+      "id": "log_020",
+      "timestamp": "2025-11-11T10:05:30.456Z",
+      "level": "info",
+      "component": "Cp1s0f4.1",
+      "file": "p1s0f4.jsx",
+      "event": "newsletter_generation_started",
+      "message": "User requested newsletter generation",
+      "details": {
+        "selected_topics": ["movies"],
+        "active_filters": ["mov_filter_1", "mov_filter_3"],
+        "user_session": "session_abc123"
+      }
+    },
+    {
+      "id": "log_021",
+      "timestamp": "2025-11-11T10:05:31.567Z",
+      "level": "debug",
+      "component": "Cp0s2f3.1",
+      "file": "p0s2f3.js",
+      "event": "newsletter_assembled",
+      "message": "Newsletter content assembled",
+      "details": {
+        "content_items": 3,
+        "include_trailers": true,
+        "total_length_chars": 4567
+      }
+    },
+    {
+      "id": "log_022",
+      "timestamp": "2025-11-11T10:05:32.789Z",
+      "level": "success",
+      "component": "Cp1s0f4.1",
+      "file": "p1s0f4.jsx",
+      "event": "newsletter_preview_rendered",
+      "message": "Newsletter preview rendered successfully",
+      "details": {
+        "items_count": 3,
+        "render_time_ms": 45
+      }
+    },
+    {
+      "id": "log_023",
+      "timestamp": "2025-11-11T10:10:00.000Z",
+      "level": "warning",
+      "component": "Cp0s0f6.1",
+      "file": "p0s0f6.js",
+      "event": "connection_health_check",
+      "message": "Polkadot connection health check",
+      "details": {
+        "status": "connected",
+        "latency_ms": 234,
+        "warnings": ["Slightly elevated latency"]
+      }
+    },
+    {
+      "id": "log_024",
+      "timestamp": "2025-11-11T10:15:45.123Z",
+      "level": "error",
+      "component": "Cp1s3f2.1",
+      "file": "p1s3f2.js",
+      "event": "api_call_failed",
+      "message": "Failed to retrieve chain data",
+      "details": {
+        "error": "Timeout exceeded",
+        "endpoint": "api.query.system.account",
+        "retry_count": 2,
+        "max_retries": 3
+      }
+    },
+    {
+      "id": "log_025",
+      "timestamp": "2025-11-11T10:15:46.456Z",
+      "level": "info",
+      "component": "Cp1s3f2.1",
+      "file": "p1s3f2.js",
+      "event": "api_retry_success",
+      "message": "API call succeeded on retry",
+      "details": {
+        "retry_attempt": 3,
+        "success": true
+      }
+    }
+  ],
+  "error_summary": {
+    "total_errors": 1,
+    "total_warnings": 1,
+    "error_types": {
+      "api_timeout": 1
+    },
+    "most_recent_error": {
+      "timestamp": "2025-11-11T10:15:45.123Z",
+      "component": "Cp1s3f2.1",
+      "message": "Failed to retrieve chain data"
+    }
+  },
+  "performance_metrics": {
+    "average_query_time_ms": 234,
+    "average_filter_render_time_ms": 45,
+    "total_searches": 1,
+    "total_wallet_connections": 1,
+    "total_chain_writes": 1
+  },
+  "session_summary": {
+    "session_start": "2025-11-11T10:00:00.000Z",
+    "active_sessions": 1,
+    "total_actions": 12,
+    "actions_by_type": {
+      "search": 1,
+      "filter_toggle": 1,
+      "wallet_connect": 1,
+      "preference_sync": 1,
+      "newsletter_generation": 1
+    }
+  }
+}

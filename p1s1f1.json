@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "file": "p1s1f1.json",
+    "topic": "movies",
+    "topic_id": 64,
+    "scis_version": "4.1",
+    "last_updated": "2025-11-11"
+  },
+  "search_results": [
+    {
+      "id": "mov_001",
+      "title": "Dune: Part Three",
+      "year": 2024,
+      "genre": ["Sci-Fi", "Adventure", "Drama"],
+      "rating": 8.7,
+      "description": "The epic conclusion to the Dune saga follows Paul Atreides as he faces his ultimate destiny.",
+      "currently_in_theaters": true,
+      "streaming_available": false,
+      "release_date": "2024-11-15",
+      "runtime_minutes": 165,
+      "director": "Denis Villeneuve",
+      "cast": ["Timothée Chalamet", "Zendaya", "Austin Butler"],
+      "trailer_url": "https://example.com/dune3-trailer",
+      "showtimes": [
+        { "time": "14:30", "format": "IMAX" },
+        { "time": "18:00", "format": "Standard" },
+        { "time": "21:30", "format": "IMAX 3D" }
+      ],
+      "merchandise_available": true,
+      "behind_the_scenes_content": true
+    },
+    {
+      "id": "mov_002",
+      "title": "The Quantum Paradox",
+      "year": 2024,
+      "genre": ["Thriller", "Mystery", "Sci-Fi"],
+      "rating": 8.2,
+      "description": "A physicist discovers a way to communicate across parallel universes, but at what cost?",
+      "currently_in_theaters": true,
+      "streaming_available": false,
+      "release_date": "2024-10-20",
+      "runtime_minutes": 142,
+      "director": "Christopher Nolan",
+      "cast": ["Cillian Murphy", "Florence Pugh", "John David Washington"],
+      "trailer_url": "https://example.com/quantum-trailer",
+      "showtimes": [
+        { "time": "15:00", "format": "Standard" },
+        { "time": "19:30", "format": "Dolby Atmos" }
+      ],
+      "merchandise_available": false,
+      "behind_the_scenes_content": true
+    },
+    {
+      "id": "mov_003",
+      "title": "Echoes of Tomorrow",
+      "year": 2024,
+      "genre": ["Drama", "Thriller"],
+      "rating": 7.9,
+      "description": "A journalist uncovers a conspiracy that could change the course of history.",
+      "currently_in_theaters": true,
+      "streaming_available": true,
+      "streaming_platforms": ["Netflix", "Amazon Prime"],
+      "release_date": "2024-09-08",
+      "runtime_minutes": 128,
+      "director": "Greta Gerwig",
+      "cast": ["Saoirse Ronan", "Adam Driver", "Scarlett Johansson"],
+      "trailer_url": "https://example.com/echoes-trailer",
+      "showtimes": [{ "time": "16:30", "format": "Standard" }],
+      "merchandise_available": false,
+      "behind_the_scenes_content": false
+    },
+    {
+      "id": "mov_004",
+      "title": "Midnight Eclipse",
+      "year": 2024,
+      "genre": ["Horror", "Thriller"],
+      "rating": 7.5,
+      "description": "During a rare solar eclipse, a small town experiences supernatural phenomena.",
+      "currently_in_theaters": false,
+      "streaming_available": true,
+      "streaming_platforms": ["Hulu", "Shudder"],
+      "release_date": "2024-08-13",
+      "runtime_minutes": 105,
+      "director": "Jordan Peele",
+      "cast": ["Lupita Nyong'o", "Winston Duke", "Yahya Abdul-Mateen II"],
+      "trailer_url": "https://example.com/midnight-trailer",
+      "merchandise_available": true,
+      "behind_the_scenes_content": true,
+      "cast_interviews": [
+        {
+          "actor": "Lupita Nyong'o",
+          "url": "https://example.com/lupita-interview",
+          "duration_minutes": 12
+        }
+      ]
+    },
+    {
+      "id": "mov_005",
+      "title": "Legacy of Fire",
+      "year": 2024,
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "rating": 8.4,
+      "description": "An ancient prophecy awakens as dragons return to reclaim their world.",
+      "currently_in_theaters": true,
+      "streaming_available": false,
+      "release_date": "2024-11-01",
+      "runtime_minutes": 178,
+      "director": "Peter Jackson",
+      "cast": ["Henry Cavill", "Anya Taylor-Joy", "Oscar Isaac"],
+      "trailer_url": "https://example.com/legacy-trailer",
+      "showtimes": [
+        { "time": "13:00", "format": "IMAX 3D" },
+        { "time": "17:30", "format": "Standard" },
+        { "time": "20:45", "format": "IMAX" }
+      ],
+      "merchandise_available": true,
+      "behind_the_scenes_content": true,
+      "visual_effects_breakdown": true
+    }
+  ],
+  "related_content": {
+    "upcoming_releases": [
+      {
+        "title": "Starlight Chronicles",
+        "release_date": "2024-12-15",
+        "genre": ["Sci-Fi", "Adventure"]
+      },
+      {
+        "title": "The Last Sanctuary",
+        "release_date": "2025-01-20",
+        "genre": ["Horror", "Thriller"]
+      }
+    ],
+    "trending_topics": [
+      "IMAX experiences",
+      "Director interviews",
+      "Behind-the-scenes footage",
+      "Film festivals 2024"
+    ]
+  }
+}

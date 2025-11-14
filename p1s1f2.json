@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "file": "p1s1f2.json",
+    "topic": "restaurants",
+    "topic_id": 128,
+    "scis_version": "4.1",
+    "last_updated": "2025-11-11"
+  },
+  "search_results": [
+    {
+      "id": "rest_001",
+      "name": "The Velvet Rose",
+      "cuisine": ["French", "Contemporary"],
+      "location": {
+        "address": "234 Romance Ave, San Francisco, CA",
+        "neighborhood": "North Beach",
+        "coordinates": { "lat": 37.8024, "lng": -122.4102 }
+      },
+      "rating": 4.7,
+      "price_range": "$$$$",
+      "ambiance": ["Romantic", "Intimate", "Upscale"],
+      "description": "An intimate French bistro perfect for date nights with candlelit tables and live piano music.",
+      "reservations_available": true,
+      "reservation_url": "https://example.com/velvet-rose-booking",
+      "open_tonight": true,
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "17:00-22:00",
+        "wednesday": "17:00-22:00",
+        "thursday": "17:00-22:00",
+        "friday": "17:00-23:00",
+        "saturday": "17:00-23:00",
+        "sunday": "17:00-21:00"
+      },
+      "popular_dishes": [
+        { "name": "Coq au Vin", "price": 42 },
+        { "name": "Beef Bourguignon", "price": 48 },
+        { "name": "Crème Brûlée", "price": 14 }
+      ],
+      "dietary_options": ["Vegetarian Options", "Gluten-Free Available"],
+      "features": ["Wine Pairing", "Live Music", "Private Dining"],
+      "chef_profile": {
+        "name": "Chef Marie Laurent",
+        "specialties": ["Classic French", "Seasonal Menus"],
+        "awards": ["Michelin Star 2023"]
+      },
+      "menu_url": "https://example.com/velvet-rose-menu",
+      "photos_available": true
+    },
+    {
+      "id": "rest_002",
+      "name": "Sakura Garden",
+      "cuisine": ["Japanese", "Sushi"],
+      "location": {
+        "address": "1567 Market St, San Francisco, CA",
+        "neighborhood": "Downtown",
+        "coordinates": { "lat": 37.7749, "lng": -122.4194 }
+      },
+      "rating": 4.6,
+      "price_range": "$$$",
+      "ambiance": ["Modern", "Elegant", "Quiet"],
+      "description": "Contemporary Japanese cuisine with an omakase experience and traditional kaiseki options.",
+      "reservations_available": true,
+      "reservation_url": "https://example.com/sakura-booking",
+      "open_tonight": true,
+      "hours": {
+        "monday": "12:00-14:30, 18:00-22:00",
+        "tuesday": "12:00-14:30, 18:00-22:00",
+        "wednesday": "12:00-14:30, 18:00-22:00",
+        "thursday": "12:00-14:30, 18:00-22:00",
+        "friday": "12:00-14:30, 18:00-23:00",
+        "saturday": "12:00-23:00",
+        "sunday": "12:00-21:00"
+      },
+      "popular_dishes": [
+        { "name": "Omakase (Chef's Choice)", "price": 120 },
+        { "name": "Wagyu Beef Nigiri", "price": 28 },
+        { "name": "Toro Sashimi", "price": 35 }
+      ],
+      "dietary_options": ["Vegetarian Sushi", "Vegan Options"],
+      "features": ["Omakase Bar", "Private Rooms", "Sake Selection"],
+      "chef_profile": {
+        "name": "Chef Takeshi Yamamoto",
+        "specialties": ["Edo-style Sushi", "Seasonal Fish"],
+        "training": ["Tokyo Sushi Academy", "15 years experience"]
+      },
+      "menu_url": "https://example.com/sakura-menu",
+      "photos_available": true
+    },
+    {
+      "id": "rest_003",
+      "name": "Terra Verde",
+      "cuisine": ["Italian", "Mediterranean"],
+      "location": {
+        "address": "892 Valencia St, San Francisco, CA",
+        "neighborhood": "Mission District",
+        "coordinates": { "lat": 37.7576, "lng": -122.421 }
+      },
+      "rating": 4.5,
+      "price_range": "$$$",
+      "ambiance": ["Rustic", "Cozy", "Family-Friendly"],
+      "description": "Farm-to-table Italian restaurant featuring handmade pasta and wood-fired pizzas.",
+      "reservations_available": true,
+      "reservation_url": "https://example.com/terra-verde-booking",
+      "open_tonight": true,
+      "hours": {
+        "monday": "17:00-22:00",
+        "tuesday": "17:00-22:00",
+        "wednesday": "17:00-22:00",
+        "thursday": "17:00-22:00",
+        "friday": "17:00-23:00",
+        "saturday": "11:00-23:00",
+        "sunday": "11:00-21:00"
+      },
+      "popular_dishes": [
+        { "name": "Truffle Tagliatelle", "price": 32 },
+        { "name": "Margherita Pizza", "price": 18 },
+        { "name": "Osso Buco", "price": 38 }
+      ],
+      "dietary_options": ["Vegetarian", "Vegan Options", "Gluten-Free Pasta"],
+      "features": ["Outdoor Patio", "Wine Cellar", "Cooking Classes"],
+      "chef_profile": {
+        "name": "Chef Antonio Rossi",
+        "specialties": ["Handmade Pasta", "Tuscan Cuisine"],
+        "background": "Trained in Florence, Italy"
+      },
+      "menu_url": "https://example.com/terra-verde-menu",
+      "photos_available": true,
+      "special_events": [
+        {
+          "name": "Wine Tasting Dinner",
+          "date": "2024-11-20",
+          "price": 85
+        }
+      ]
+    },
+    {
+      "id": "rest_004",
+      "name": "Spice Route",
+      "cuisine": ["Indian", "Contemporary Asian"],
+      "location": {
+        "address": "3456 Geary Blvd, San Francisco, CA",
+        "neighborhood": "Richmond",
+        "coordinates": { "lat": 37.7809, "lng": -122.4584 }
+      },
+      "rating": 4.4,
+      "price_range": "$$",
+      "ambiance": ["Vibrant", "Modern", "Casual"],
+      "description": "Modern Indian cuisine with innovative twists on traditional dishes and craft cocktails.",
+      "reservations_available": true,
+      "reservation_url": "https://example.com/spice-route-booking",
+      "open_tonight": true,
+      "hours": {
+        "monday": "11:30-14:30, 17:30-22:00",
+        "tuesday": "11:30-14:30, 17:30-22:00",
+        "wednesday": "11:30-14:30, 17:30-22:00",
+        "thursday": "11:30-14:30, 17:30-22:00",
+        "friday": "11:30-14:30, 17:30-23:00",
+        "saturday": "12:00-23:00",
+        "sunday": "12:00-21:00"
+      },
+      "popular_dishes": [
+        { "name": "Butter Chicken", "price": 22 },
+        { "name": "Paneer Tikka Masala", "price": 19 },
+        { "name": "Lamb Vindaloo", "price": 26 }
+      ],
+      "dietary_options": ["Vegetarian", "Vegan", "Gluten-Free", "Jain Options"],
+      "features": ["Craft Cocktails", "Happy Hour", "Catering Available"],
+      "chef_profile": {
+        "name": "Chef Priya Sharma",
+        "specialties": ["Regional Indian Cuisine", "Spice Blending"],
+        "awards": ["Best Indian Restaurant SF 2023"]
+      },
+      "menu_url": "https://example.com/spice-route-menu",
+      "photos_available": true
+    },
+    {
+      "id": "rest_005",
+      "name": "The Golden Plate",
+      "cuisine": ["American", "Steakhouse"],
+      "location": {
+        "address": "789 Embarcadero, San Francisco, CA",
+        "neighborhood": "Waterfront",
+        "coordinates": { "lat": 37.7955, "lng": -122.3937 }
+      },
+      "rating": 4.8,
+      "price_range": "$$$$",
+      "ambiance": ["Upscale", "Classic", "Business Casual"],
+      "description": "Premium steakhouse with aged beef, fresh seafood, and panoramic bay views.",
+      "reservations_available": true,
+      "reservation_url": "https://example.com/golden-plate-booking",
+      "open_tonight": true,
+      "hours": {
+        "monday": "17:00-22:00",
+        "tuesday": "17:00-22:00",
+        "wednesday": "17:00-22:00",
+        "thursday": "17:00-22:00",
+        "friday": "17:00-23:00",
+        "saturday": "16:00-23:00",
+        "sunday": "16:00-21:00"
+      },
+      "popular_dishes": [
+        { "name": "Dry-Aged Ribeye 16oz", "price": 78 },
+        { "name": "Lobster Tail", "price": 65 },
+        { "name": "Truffle Mac & Cheese", "price": 18 }
+      ],
+      "dietary_options": ["Gluten-Free Available"],
+      "features": [
+        "Bay Views",
+        "Private Dining",
+        "Sommelier Service",
+        "Valet Parking"
+      ],
+      "chef_profile": {
+        "name": "Chef Michael Sterling",
+        "specialties": ["Prime Cuts", "Dry Aging"],
+        "awards": ["AAA Five Diamond Award"]
+      },
+      "menu_url": "https://example.com/golden-plate-menu",
+      "photos_available": true,
+      "dress_code": "Business Casual"
+    }
+  ],
+  "related_content": {
+    "food_trends": [
+      "Farm-to-table dining",
+      "Omakase experiences",
+      "Wine pairing dinners",
+      "Sustainable seafood"
+    ],
+    "nearby_experiences": [
+      "Cooking classes",
+      "Food tours",
+      "Wine tasting events"
+    ]
+  }
+}

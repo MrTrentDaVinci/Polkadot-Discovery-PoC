@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "file": "p1s1f6.json",
+    "description": "Dynamic filter templates mapped to search topics",
+    "scis_version": "4.1",
+    "last_updated": "2025-11-11"
+  },
+  "topic_keywords": {
+    "movies": [
+      "movie",
+      "film",
+      "cinema",
+      "thriller",
+      "comedy",
+      "drama",
+      "action",
+      "horror",
+      "documentary"
+    ],
+    "restaurants": [
+      "restaurant",
+      "dining",
+      "food",
+      "eat",
+      "cuisine",
+      "meal",
+      "dinner",
+      "lunch",
+      "breakfast"
+    ],
+    "travel": [
+      "travel",
+      "destination",
+      "vacation",
+      "trip",
+      "hotel",
+      "flight",
+      "tourist",
+      "visit"
+    ],
+    "events": [
+      "event",
+      "concert",
+      "festival",
+      "conference",
+      "show",
+      "performance",
+      "exhibition"
+    ],
+    "tech": [
+      "tech",
+      "gadget",
+      "device",
+      "laptop",
+      "phone",
+      "headphones",
+      "camera",
+      "gaming"
+    ]
+  },
+  "filter_templates": {
+    "movies": {
+      "topic_id": 64,
+      "topic_name": "Movies",
+      "filters": [
+        {
+          "id": "mov_filter_1",
+          "name": "Currently in Theaters",
+          "category": "availability",
+          "type": "checkbox",
+          "description": "Show only movies currently playing in cinemas",
+          "default": false,
+          "priority": 1
+        },
+        {
+          "id": "mov_filter_2",
+          "name": "Streaming Available",
+          "category": "availability",
+          "type": "checkbox",
+          "description": "Include movies available on streaming platforms",
+          "default": false,
+          "priority": 2
+        },
+        {
+          "id": "mov_filter_3",
+          "name": "Include Trailers in Newsletter",
+          "category": "content",
+          "type": "checkbox",
+          "description": "Add trailer links to your newsletter",
+          "default": true,
+          "priority": 3,
+          "newsletter_specific": true
+        },
+        {
+          "id": "mov_filter_4",
+          "name": "Showtimes Near Me",
+          "category": "location",
+          "type": "checkbox",
+          "description": "Show available showtimes at nearby theaters",
+          "default": false,
+          "priority": 4,
+          "requires_location": true
+        },
+        {
+          "id": "mov_filter_5",
+          "name": "Behind-the-Scenes Content",
+          "category": "content",
+          "type": "checkbox",
+          "description": "Include making-of and BTS videos",
+          "default": false,
+          "priority": 5,
+          "newsletter_specific": true
+        },
+        {
+          "id": "mov_filter_6",
+          "name": "Cast Interviews",
+          "category": "content",
+          "type": "checkbox",
+          "description": "Add cast and director interviews",
+          "default": false,
+          "priority": 6,
+          "newsletter_specific": true
+        },
+        {
+          "id": "mov_filter_7",
+          "name": "Merchandise Available",
+          "category": "shopping",
+          "type": "checkbox",
+          "description": "Show movies with official merchandise",
+          "default": false,
+          "priority": 7
+        },
+        {
+          "id": "mov_filter_8",
+          "name": "Rating Above",
+          "category": "quality",
+          "type": "slider",
+          "description": "Minimum rating threshold",
+          "default": 7.0,
+          "min": 0,
+          "max": 10,
+          "step": 0.5,
+          "priority": 8
+        }
+      ]
+    },
+    "restaurants": {
+      "topic_id": 128,
+      "topic_name": "Restaurants",
+      "filters": [
+        {
+          "id": "rest_filter_1",
+          "name": "Reservations Available Tonight",
+          "category": "availability",
+          "type": "checkbox",
+          "description": "Show restaurants with same-day availability",
+          "default": false,
+          "priority": 1
+        },
+        {
+          "id": "rest_filter_2",
+          "name": "Include Menus in Newsletter",
+          "category": "content",
+          "type": "checkbox",
+          "description": "Add full menu links to newsletter",
+          "default": true,
+          "priority": 2,
+          "newsletter_specific": true
+        },
+        {
+          "id": "rest_filter_3",
+          "name": "Dietary Restrictions",
+          "category": "dietary",
+          "type": "multi_select",
+          "description": "Filter by dietary options",
+          "options": ["Vegetarian", "Vegan", "Gluten-Free", "Halal", "Kosher"],
+          "default": [],
+          "priority": 3
+        },
+        {
+          "id": "rest_filter_4",
+          "name": "Price Range",
+          "category": "price",
+          "type": "multi_select",
+          "description": "Select acceptable price ranges",
+          "options": ["$", "$$", "$$$", "$$$$"],
+          "default": [],
+          "priority": 4
+        },
+        {
+          "id": "rest_filter_5",
+          "name": "Ambiance",
+          "category": "atmosphere",
+          "type": "multi_select",
+          "description": "Desired restaurant atmosphere",
+          "options": [
+            "Romantic",
+            "Casual",
+            "Upscale",
+            "Family-Friendly",
+            "Business"
+          ],
+          "default": [],
+          "priority": 5
+        },
+        {
+          "id": "rest_filter_6",
+          "name": "Chef Profiles",
+          "category": "content",
+          "type": "checkbox",
+          "description": "Include chef background and specialties",
+          "default": false,
+          "priority": 6,
+          "newsletter_specific": true
+        },
+        {
+          "id": "rest_filter_7",
+          "name": "Special Events",
+          "category": "events",
+          "type": "checkbox",
+          "description": "Show restaurants with upcoming wine tastings, etc.",
+          "default": false,
+          "priority": 7
+        },
+        {
+          "id": "rest_filter_8",
+          "name": "Distance",
+          "category": "location",
+          "type": "slider",
+          "description": "Maximum distance in miles",
+          "default": 10,
+          "min": 1,
+          "max": 50,
+          "step": 1,
+          "priority": 8,
+          "requires_location": true
+        }
+      ]
+    },
+    "travel": {
+      "topic_id": 192,
+      "topic_name": "Travel",
+      "filters": [
+        {
+          "id": "travel_filter_1",
+          "name": "Hotel Availability",
+          "category": "lodging",
+          "type": "checkbox",
+          "description": "Show current hotel availability and prices",
+          "default": true,
+          "priority": 1
+        },
+        {
+          "id": "travel_filter_2",
+          "name": "Flight Deals",
+          "category": "transport",
+          "type": "checkbox",
+          "description": "Include current flight prices and deals",
+          "default": true,
+          "priority": 2
+        },
+        {
+          "id": "travel_filter_3",
+          "name": "Weather Forecast",
+          "category": "planning",
+          "type": "checkbox",
+          "description": "Add current weather and outlook",
+          "default": true,
+          "priority": 3
+        },
+        {
+          "id": "travel_filter_4",
+          "name": "Local Guides Available",
+          "category": "experiences",
+          "type": "checkbox",
+          "description": "Show destinations with local tour guides",
+          "default": false,
+          "priority": 4
+        },
+        {
+          "id": "travel_filter_5",
+          "name": "Travel Tips & Advice",
+          "category": "content",
+          "type": "checkbox",
+          "description": "Include practical travel tips in newsletter",
+          "default": true,
+          "priority": 5,
+          "newsletter_specific": true
+        },
+        {
+          "id": "travel_filter_6",
+          "name": "Visa Requirements",
+          "category": "planning",
+          "type": "checkbox",
+          "description": "Show visa and entry requirements",
+          "default": true,
+          "priority": 6
+        },
+        {
+          "id": "travel_filter_7",
+          "name": "Budget Level",
+          "category": "price",
+          "type": "single_select",
+          "description": "Select your travel budget",
+          "options": ["Budget", "Mid-Range", "Luxury"],
+          "default": "Mid-Range",
+          "priority": 7
+        },
+        {
+          "id": "travel_filter_8",
+          "name": "Travel Type",
+          "category": "style",
+          "type": "multi_select",
+          "description": "Type of travel experience",
+          "options": [
+            "Adventure",
+            "Relaxation",
+            "Cultural",
+            "Beach",
+            "Nature",
+            "City"
+          ],
+          "default": [],
+          "priority": 8
+        }
+      ]
+    },
+    "events": {
+      "topic_id": 256,
+      "topic_name": "Events",
+      "filters": [
+        {
+          "id": "event_filter_1",
+          "name": "Tickets Available",
+          "category": "availability",
+          "type": "checkbox",
+          "description": "Show only events with tickets still available",
+          "default": true,
+          "priority": 1
+        },
+        {
+          "id": "event_filter_2",
+          "name": "This Week Only",
+          "category": "timing",
+          "type": "checkbox",
+          "description": "Show events happening in the next 7 days",
+          "default": false,
+          "priority": 2
+        },
+        {
+          "id": "event_filter_3",
+          "name": "Venue Information",
+          "category": "content",
+          "type": "checkbox",
+          "description": "Include venue details and directions",
+          "default": true,
+          "priority": 3,
+          "newsletter_specific": true
+        },
+        {
+          "id": "event_filter_4",
+          "name": "Related Events",
+          "category": "discovery",
+          "type": "checkbox",
+          "description": "Show similar upcoming events",
+          "default": false,
+          "priority": 4
+        },
+        {
+          "id": "event_filter_5",
+          "name": "Event Category",
+          "category": "type",
+          "type": "multi_select",
+          "description": "Filter by event type",
+          "options": [
+            "Music",
+            "Comedy",
+            "Tech",
+            "Food",
+            "Sports",
+            "Arts",
+            "Family"
+          ],
+          "default": [],
+          "priority": 5
+        },
+        {
+          "id": "event_filter_6",
+          "name": "Price Range",
+          "category": "price",
+          "type": "slider",
+          "description": "Maximum ticket price",
+          "default": 200,
+          "min": 0,
+          "max": 500,
+          "step": 25,
+          "priority": 6
+        },
+        {
+          "id": "event_filter_7",
+          "name": "Parking Available",
+          "category": "logistics",
+          "type": "checkbox",
+          "description": "Show only events with parking",
+          "default": false,
+          "priority": 7
+        },
+        {
+          "id": "event_filter_8",
+          "name": "Family Friendly",
+          "category": "audience",
+          "type": "checkbox",
+          "description": "Filter for all-ages events",
+          "default": false,
+          "priority": 8
+        }
+      ]
+    },
+    "tech": {
+      "topic_id": 320,
+      "topic_name": "Tech Products",
+      "filters": [
+        {
+          "id": "tech_filter_1",
+          "name": "In Stock Now",
+          "category": "availability",
+          "type": "checkbox",
+          "description": "Show only products available for immediate purchase",
+          "default": false,
+          "priority": 1
+        },
+        {
+          "id": "tech_filter_2",
+          "name": "Where to Buy",
+          "category": "shopping",
+          "type": "checkbox",
+          "description": "Include retailer links and prices",
+          "default": true,
+          "priority": 2,
+          "newsletter_specific": true
+        },
+        {
+          "id": "tech_filter_3",
+          "name": "Technical Specifications",
+          "category": "content",
+          "type": "checkbox",
+          "description": "Add full specs to newsletter",
+          "default": true,
+          "priority": 3,
+          "newsletter_specific": true
+        },
+        {
+          "id": "tech_filter_4",
+          "name": "Video Reviews",
+          "category": "content",
+          "type": "checkbox",
+          "description": "Include links to video reviews",
+          "default": false,
+          "priority": 4,
+          "newsletter_specific": true
+        },
+        {
+          "id": "tech_filter_5",
+          "name": "Product Comparisons",
+          "category": "discovery",
+          "type": "checkbox",
+          "description": "Show comparisons with competing products",
+          "default": true,
+          "priority": 5
+        },
+        {
+          "id": "tech_filter_6",
+          "name": "Accessories & Add-ons",
+          "category": "shopping",
+          "type": "checkbox",
+          "description": "Include compatible accessories",
+          "default": false,
+          "priority": 6
+        },
+        {
+          "id": "tech_filter_7",
+          "name": "Price Range",
+          "category": "price",
+          "type": "slider",
+          "description": "Maximum price",
+          "default": 2000,
+          "min": 0,
+          "max": 5000,
+          "step": 100,
+          "priority": 7
+        },
+        {
+          "id": "tech_filter_8",
+          "name": "Minimum Rating",
+          "category": "quality",
+          "type": "slider",
+          "description": "Minimum user rating",
+          "default": 4.0,
+          "min": 0,
+          "max": 5,
+          "step": 0.5,
+          "priority": 8
+        }
+      ]
+    }
+  },
+  "filter_behavior": {
+    "newsletter_specific_filters": {
+      "description": "Filters that only affect newsletter content, not search results",
+      "applies_to": [
+        "Include Trailers in Newsletter",
+        "Include Menus in Newsletter",
+        "Behind-the-Scenes Content",
+        "Cast Interviews",
+        "Technical Specifications",
+        "Video Reviews"
+      ]
+    },
+    "location_required_filters": {
+      "description": "Filters that require user location permission",
+      "applies_to": ["Showtimes Near Me", "Distance"],
+      "fallback": "Show all results if location denied"
+    },
+    "filter_persistence": {
+      "storage": "Polkadot chain for logged-in users",
+      "fallback": "LocalStorage for guest users",
+      "sync": "Automatically sync across devices"
+    }
+  }
+}

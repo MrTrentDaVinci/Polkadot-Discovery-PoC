@@ -1,0 +1,497 @@
+{
+  "metadata": {
+    "file": "p1s1f5.json",
+    "topic": "tech_products",
+    "topic_id": 320,
+    "scis_version": "4.1",
+    "last_updated": "2025-11-11"
+  },
+  "search_results": [
+    {
+      "id": "tech_001",
+      "name": "Apple Vision Pro 2",
+      "category": ["VR/AR", "Headset", "Computing"],
+      "brand": "Apple",
+      "release_date": "2024-10-15",
+      "price": {
+        "msrp": 2999,
+        "current": 2999,
+        "currency": "USD"
+      },
+      "description": "Next-generation spatial computing device with improved optics, lighter design, and enhanced battery life.",
+      "specifications": {
+        "display": "Dual micro-OLED, 4K per eye",
+        "processor": "M4 chip + R2 co-processor",
+        "storage_options": ["512GB", "1TB", "2TB"],
+        "weight": "580g (down from 600g)",
+        "battery": "3 hours active use, 4 hours video",
+        "connectivity": ["Wi-Fi 7", "Bluetooth 5.4"],
+        "sensors": "12 cameras, 5 sensors, LiDAR"
+      },
+      "features": [
+        "EyeSight external display",
+        "Spatial audio with head tracking",
+        "Hand gesture control",
+        "Eye tracking navigation",
+        "Mixed reality passthrough",
+        "visionOS 2.0"
+      ],
+      "availability": {
+        "in_stock": true,
+        "shipping": "1-2 weeks",
+        "stores": ["Apple Store", "Best Buy"]
+      },
+      "reviews": {
+        "average_rating": 4.3,
+        "total_reviews": 1248,
+        "pros": [
+          "Incredible display quality",
+          "Intuitive controls",
+          "Comfortable design"
+        ],
+        "cons": ["Expensive", "Limited app ecosystem", "Battery life"]
+      },
+      "where_to_buy": [
+        {
+          "retailer": "Apple Store",
+          "price": 2999,
+          "url": "https://example.com/apple-vision-pro-2",
+          "in_stock": true
+        },
+        {
+          "retailer": "Best Buy",
+          "price": 2999,
+          "url": "https://example.com/bestbuy-vision-pro-2",
+          "in_stock": true
+        }
+      ],
+      "comparisons": [
+        { "product": "Meta Quest 3", "price_diff": -2499 },
+        { "product": "PlayStation VR2", "price_diff": -2449 }
+      ],
+      "accessories": [
+        { "name": "Travel Case", "price": 199 },
+        { "name": "Battery Pack", "price": 149 },
+        { "name": "Prescription Lens Inserts", "price": 149 }
+      ],
+      "videos": [
+        {
+          "title": "Unboxing & First Impressions",
+          "url": "https://example.com/vp2-unbox"
+        },
+        { "title": "Full Review", "url": "https://example.com/vp2-review" },
+        {
+          "title": "Gaming Performance Test",
+          "url": "https://example.com/vp2-gaming"
+        }
+      ]
+    },
+    {
+      "id": "tech_002",
+      "name": "Framework Laptop 16",
+      "category": ["Laptop", "Computing", "Modular"],
+      "brand": "Framework",
+      "release_date": "2024-09-20",
+      "price": {
+        "msrp": 1999,
+        "current": 1899,
+        "currency": "USD",
+        "discount_percentage": 5
+      },
+      "description": "Fully modular and upgradeable laptop with customizable GPU options and user-repairable design.",
+      "specifications": {
+        "display": "16-inch, 2560x1600, 165Hz",
+        "processor_options": ["AMD Ryzen 7 7840HS", "AMD Ryzen 9 7940HS"],
+        "gpu_options": ["Integrated Radeon", "Discrete AMD RX 7700S"],
+        "ram": "Up to 96GB DDR5",
+        "storage": "Up to 4TB NVMe SSD",
+        "ports": "Modular expansion cards (customizable)",
+        "battery": "85Wh, 10-12 hours",
+        "weight": "2.1kg (without dGPU module)"
+      },
+      "features": [
+        "Fully user-upgradeable",
+        "Modular expansion bay",
+        "QR codes for repair guides",
+        "Hot-swappable ports",
+        "100% aluminum chassis",
+        "Open source firmware"
+      ],
+      "availability": {
+        "in_stock": true,
+        "shipping": "2-3 weeks (made to order)",
+        "stores": ["Framework.com only"]
+      },
+      "reviews": {
+        "average_rating": 4.7,
+        "total_reviews": 892,
+        "pros": [
+          "Modular design",
+          "Easy to repair",
+          "Great performance",
+          "Sustainability"
+        ],
+        "cons": ["Price premium", "Limited availability", "Heavier with dGPU"]
+      },
+      "where_to_buy": [
+        {
+          "retailer": "Framework Direct",
+          "price": 1899,
+          "url": "https://example.com/framework-16",
+          "in_stock": true,
+          "customization": true
+        }
+      ],
+      "comparisons": [
+        { "product": "Dell XPS 15", "repairability": "Much worse" },
+        { "product": "MacBook Pro 16", "upgradability": "None" }
+      ],
+      "upgrade_modules": [
+        { "name": "GPU Module (RX 7700S)", "price": 499 },
+        { "name": "RGB LED Matrix", "price": 99 },
+        { "name": "Additional Storage Bay", "price": 39 }
+      ],
+      "sustainability": {
+        "repairability_score": "10/10",
+        "recyclable_materials": "95%",
+        "right_to_repair": "Full support"
+      },
+      "videos": [
+        {
+          "title": "Complete Disassembly Guide",
+          "url": "https://example.com/fw16-teardown"
+        },
+        {
+          "title": "Gaming Benchmarks",
+          "url": "https://example.com/fw16-gaming"
+        },
+        {
+          "title": "Upgrading Guide",
+          "url": "https://example.com/fw16-upgrade"
+        }
+      ]
+    },
+    {
+      "id": "tech_003",
+      "name": "Sony WH-1000XM6",
+      "category": ["Audio", "Headphones", "Wireless"],
+      "brand": "Sony",
+      "release_date": "2024-08-10",
+      "price": {
+        "msrp": 399,
+        "current": 349,
+        "currency": "USD",
+        "discount_percentage": 13
+      },
+      "description": "Industry-leading noise cancellation headphones with AI-powered sound optimization and 40-hour battery life.",
+      "specifications": {
+        "driver_size": "40mm",
+        "frequency_response": "4Hz - 40kHz",
+        "bluetooth": "5.3 with multipoint",
+        "noise_cancellation": "Dual Noise Sensor + AI processor",
+        "battery_life": "40 hours (ANC on), 50 hours (ANC off)",
+        "charging": "USB-C, 3 hours full, 10 min = 5 hours",
+        "weight": "250g",
+        "codecs": ["LDAC", "AAC", "SBC"]
+      },
+      "features": [
+        "Industry-leading ANC",
+        "Speak-to-Chat auto pause",
+        "Adaptive Sound Control",
+        "360 Reality Audio",
+        "Multipoint connection (3 devices)",
+        "Wear detection auto pause",
+        "AI-powered upscaling"
+      ],
+      "availability": {
+        "in_stock": true,
+        "shipping": "1-2 days",
+        "stores": ["Amazon", "Best Buy", "Sony Store"]
+      },
+      "reviews": {
+        "average_rating": 4.8,
+        "total_reviews": 3421,
+        "pros": [
+          "Best ANC on market",
+          "Incredible battery life",
+          "Comfortable",
+          "Great sound"
+        ],
+        "cons": ["Not foldable", "Price", "Plastic build"]
+      },
+      "where_to_buy": [
+        {
+          "retailer": "Amazon",
+          "price": 349,
+          "url": "https://example.com/amazon-wh1000xm6",
+          "in_stock": true,
+          "prime_eligible": true
+        },
+        {
+          "retailer": "Best Buy",
+          "price": 349,
+          "url": "https://example.com/bestbuy-wh1000xm6",
+          "in_stock": true
+        },
+        {
+          "retailer": "Sony Direct",
+          "price": 399,
+          "url": "https://example.com/sony-wh1000xm6",
+          "in_stock": true
+        }
+      ],
+      "comparisons": [
+        {
+          "product": "Bose QuietComfort Ultra",
+          "anc": "Similar",
+          "price_diff": 30
+        },
+        { "product": "Apple AirPods Max", "price_diff": -200 }
+      ],
+      "accessories": [
+        { "name": "Hard Carrying Case", "price": 49 },
+        { "name": "Replacement Earpads", "price": 29 }
+      ],
+      "colors": ["Black", "Silver", "Midnight Blue"],
+      "videos": [
+        {
+          "title": "Full Review & ANC Test",
+          "url": "https://example.com/xm6-review"
+        },
+        {
+          "title": "vs Bose QC Ultra Comparison",
+          "url": "https://example.com/xm6-vs-bose"
+        },
+        {
+          "title": "Sound Quality Test",
+          "url": "https://example.com/xm6-sound"
+        }
+      ]
+    },
+    {
+      "id": "tech_004",
+      "name": "DJI Mini 4 Pro",
+      "category": ["Drone", "Camera", "Outdoor"],
+      "brand": "DJI",
+      "release_date": "2024-07-25",
+      "price": {
+        "msrp": 759,
+        "current": 759,
+        "currency": "USD"
+      },
+      "description": "Compact, sub-250g drone with professional-grade camera and omnidirectional obstacle sensing.",
+      "specifications": {
+        "weight": "249g",
+        "camera": "1/1.3-inch CMOS, 48MP",
+        "video": "4K/60fps, 10-bit D-Log M",
+        "flight_time": "34 minutes",
+        "transmission": "OcuSync 4.0, 20km range",
+        "max_speed": "16 m/s (Sport mode)",
+        "obstacle_sensing": "Omnidirectional",
+        "storage": "Micro SD up to 512GB"
+      },
+      "features": [
+        "ActiveTrack 360°",
+        "Waypoint navigation",
+        "Vertical shooting mode",
+        "Night mode photography",
+        "QuickShots automated modes",
+        "Return to Home",
+        "No FAA registration required (under 250g)"
+      ],
+      "availability": {
+        "in_stock": true,
+        "shipping": "3-5 days",
+        "stores": ["DJI Store", "Best Buy", "B&H Photo"]
+      },
+      "reviews": {
+        "average_rating": 4.6,
+        "total_reviews": 687,
+        "pros": [
+          "Portability",
+          "Image quality",
+          "Obstacle avoidance",
+          "No registration needed"
+        ],
+        "cons": ["Price", "Battery life in wind", "Limited in rain"]
+      },
+      "where_to_buy": [
+        {
+          "retailer": "DJI Store",
+          "price": 759,
+          "url": "https://example.com/dji-mini4pro",
+          "in_stock": true,
+          "bundles": true
+        },
+        {
+          "retailer": "Best Buy",
+          "price": 759,
+          "url": "https://example.com/bestbuy-mini4pro",
+          "in_stock": true
+        },
+        {
+          "retailer": "B&H Photo",
+          "price": 759,
+          "url": "https://example.com/bhphoto-mini4pro",
+          "in_stock": true
+        }
+      ],
+      "bundles": [
+        {
+          "name": "Fly More Combo",
+          "price": 1099,
+          "includes": [
+            "3 batteries",
+            "Charging hub",
+            "Carrying bag",
+            "Extra props"
+          ]
+        }
+      ],
+      "comparisons": [
+        { "product": "DJI Air 3", "weight": "720g (requires registration)" },
+        { "product": "Autel Nano+", "camera": "Lower quality" }
+      ],
+      "accessories": [
+        { "name": "Extra Battery", "price": 89 },
+        { "name": "ND Filter Set", "price": 79 },
+        { "name": "Landing Pad", "price": 29 }
+      ],
+      "regulations": {
+        "faa_registration": "Not required (under 250g)",
+        "remote_id": "Built-in compliance"
+      },
+      "videos": [
+        {
+          "title": "Complete Guide",
+          "url": "https://example.com/mini4pro-guide"
+        },
+        {
+          "title": "Sample Footage",
+          "url": "https://example.com/mini4pro-footage"
+        },
+        {
+          "title": "vs Mini 3 Pro Comparison",
+          "url": "https://example.com/mini4-vs-3"
+        }
+      ]
+    },
+    {
+      "id": "tech_005",
+      "name": "Steam Deck OLED 1TB",
+      "category": ["Gaming", "Handheld", "PC Gaming"],
+      "brand": "Valve",
+      "release_date": "2024-06-15",
+      "price": {
+        "msrp": 649,
+        "current": 649,
+        "currency": "USD"
+      },
+      "description": "Premium handheld gaming PC with stunning OLED display and improved battery life.",
+      "specifications": {
+        "display": "7.4-inch HDR OLED, 1280x800, 90Hz",
+        "processor": "AMD APU (Zen 2 + RDNA 2)",
+        "ram": "16GB LPDDR5",
+        "storage": "1TB NVMe SSD",
+        "battery": "50Wh, 3-12 hours gameplay",
+        "connectivity": ["Wi-Fi 6E", "Bluetooth 5.3"],
+        "ports": ["USB-C", "Audio jack", "MicroSD"],
+        "weight": "640g"
+      },
+      "features": [
+        "HDR OLED screen",
+        "90Hz refresh rate",
+        "Play Steam library on the go",
+        "Desktop mode (Linux)",
+        "Verified game compatibility",
+        "Cloud saves",
+        "Remote play from PC",
+        "Dual trackpads"
+      ],
+      "availability": {
+        "in_stock": true,
+        "shipping": "1-2 weeks",
+        "stores": ["Steam Store only"]
+      },
+      "reviews": {
+        "average_rating": 4.7,
+        "total_reviews": 2134,
+        "pros": [
+          "Gorgeous OLED display",
+          "Huge game library",
+          "Great battery",
+          "Versatile"
+        ],
+        "cons": ["Heavy", "Fan noise", "Not all games optimized"]
+      },
+      "where_to_buy": [
+        {
+          "retailer": "Steam Store",
+          "price": 649,
+          "url": "https://example.com/steam-deck-oled",
+          "in_stock": true
+        }
+      ],
+      "game_compatibility": {
+        "verified": "5000+ games",
+        "playable": "8000+ games",
+        "unsupported": "Some anti-cheat games"
+      },
+      "comparisons": [
+        {
+          "product": "ASUS ROG Ally",
+          "price_diff": 50,
+          "performance": "Similar"
+        },
+        { "product": "Nintendo Switch OLED", "game_library": "Much smaller" }
+      ],
+      "accessories": [
+        { "name": "Official Dock", "price": 89 },
+        { "name": "Carrying Case", "price": 49 },
+        { "name": "Screen Protector", "price": 19 },
+        { "name": "512GB MicroSD", "price": 69 }
+      ],
+      "popular_games": [
+        "Baldur's Gate 3",
+        "Elden Ring",
+        "Cyberpunk 2077",
+        "Hades",
+        "Spider-Man Remastered"
+      ],
+      "videos": [
+        {
+          "title": "OLED vs LCD Comparison",
+          "url": "https://example.com/deck-oled-comparison"
+        },
+        {
+          "title": "Best Settings Guide",
+          "url": "https://example.com/deck-settings"
+        },
+        { "title": "Top 50 Games", "url": "https://example.com/deck-top-games" }
+      ]
+    }
+  ],
+  "related_content": {
+    "tech_categories": [
+      "Smartphones",
+      "Laptops",
+      "Smart Home",
+      "Wearables",
+      "Gaming",
+      "Audio",
+      "Photography"
+    ],
+    "buying_guides": [
+      "Best Tech Gifts 2024",
+      "Gaming Setup Essentials",
+      "Home Office Tech",
+      "Photography Gear"
+    ],
+    "trending_topics": [
+      "AI-powered devices",
+      "Sustainable tech",
+      "Modular electronics",
+      "Spatial computing"
+    ]
+  }
+}
